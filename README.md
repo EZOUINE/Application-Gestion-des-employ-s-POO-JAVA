@@ -73,7 +73,6 @@ Contient la logique principale et un menu interactif :
 
     •	IDE : IntelliJ IDEA
 
-    •	Version minimale : Java 8+
 
 ✨ Auteur
 
