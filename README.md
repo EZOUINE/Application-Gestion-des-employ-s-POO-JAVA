@@ -24,47 +24,29 @@ L’application permet de :
 🟩 Classe Employe
 
 Représente un employé avec les attributs :
-
-  •	int id
-
-  •	String nom
-
-  •	String poste
-
-  •	double salaire
-
+  - int id
+  - String nom
+  - String poste
+  - double salaire
 
 Méthodes principales :
-
-  •	Constructeurs (par défaut et avec paramètres)
-
-  •	Getters et Setters
-
-  •	toString() → pour afficher les informations d’un employé
-
-  •	compareParSalaire(Employe e1, Employe e2) → méthode statique pour comparer deux salaires
+  - Constructeurs (par défaut et avec paramètres)
+  - Getters et Setters
+  - toString() → pour afficher les informations d’un employé
+  - compareParSalaire(Employe e1, Employe e2) → méthode statique pour comparer deux salaires
 
 🟦 Classe GestionEmployes
 
 Contient la logique principale et un menu interactif :
-
- •	Un tableau Employe[] (50 employés max)
-
- •	Méthodes statiques :
-
-  o	ajouterEmploye()
-
-  o	modifierEmploye()
-
-  o	supprimerEmploye()
-
-  o	afficherEmployes()
-
-  o	rechercherEmploye()
-
-  o	calculerMasseSalariale()
-
-  o	trierEmployesParSalaire(boolean ordreCroissant)
+- Un tableau Employe[] (50 employés max)
+- Méthodes statiques :
+   - ajouterEployer()
+   - modifierEmploye()
+   - supprimerEmploye()
+   - afficherEmployes()
+   - rechercherEmploye()
+   - calculerMasseSalariale()
+   - trierEmployesParSalaire(boolean ordreCroissant)
 
 💻 Exemple d’exécution
 
